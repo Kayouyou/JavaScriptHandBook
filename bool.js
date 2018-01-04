@@ -93,7 +93,30 @@ console.log(equalArrays(a,b))
 
 //类型转换
 console.log(10+"objects")
-console.log("4"*"19")
+console.log("4"*"19")//76
+ var d = new Date(2010,0,1)
+ console.log(d.valueOf())
+
+//声明一个全局的变量
+var scope = "global";
+
+function checkscope(){
+	//声明一个同名的局部变量
+	var scope = "local";
+	//返回局部变量
+	return scope;
+}
+
+
+console.log(checkscope())
+
+
+
+
+
+
+
+
 
 
 
