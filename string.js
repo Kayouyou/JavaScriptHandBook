@@ -21,4 +21,5 @@ console.log(s.substring(1,4))
 
 console.log(s.toUpperCase())
 
+//字符串
 console.log(s[0])
