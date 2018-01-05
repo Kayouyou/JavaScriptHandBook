@@ -107,7 +107,6 @@ function checkscope(){
 	return scope;
 }
 
-
 console.log(checkscope())
 
 
