@@ -66,14 +66,20 @@ advanceF()
 
 /*
 作为属性的变量
+当声明一个js全局变量时，实际上是定义了全局对象的一个属性，当使用var声明一个变量时
+创建的这个属性是不可配置的，也就是说这个变量无法通过delete运算符删除
+
+如果你没有使用严格模式并给一个未声明的变量赋值的话，JS会自动创建一全局变量
+以这种方式创建的变量时全局对象的正常的可配置属性，并可以删除它们
+
 */
 
 var trueVar = 1;//声明一个不可删除的全局变量
 fakeVar = 2;//创键全局对象的一个可删除属性
-this.fakeVar = 3;//同上
-console.log(delete trueVar);
-console.log(delete fakeVar);
-console.log(delete this.fakeVar);
+this.fakeVar = 3;//同上  JS允许使用this关键字引用全局对象
+console.log(delete trueVar);//false
+console.log(delete fakeVar);//ture
+console.log(delete this.fakeVar);//ture
 
 
 
