@@ -101,18 +101,17 @@ console.log(res); // 5
 
 
 
-
+//严格模式下不能用别名覆盖eval()函数
 var geval = eval;//使用别名调eval 将是全局eval
 var x = "global";
 var y = "global";//两个全局变量
 function f(){//函数内执行的是局部eval
 	var x = "local";//定义局部变量
-	geval("x+='changed';");//直接eval更改局部变量值
+	eval("x+='changed';");//直接eval更改局部变量值
 	return x;
 }
 
 function g(){//函数内执行全局eval
-
 	var y = "local";
 	geval("y+='changed';");//间接调用改变全局变量值
 	return y;
