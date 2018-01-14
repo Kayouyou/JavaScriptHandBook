@@ -41,15 +41,28 @@ i = j = 1;
 
 k = 2;
 
+//条件语句statement括号是必须的！而且带花括号是一个好习惯
 if (i==j) {
 	if (j==k) {
 		console.log("i equals k");
 	}else{
 		console.log("i doesn`t equal j");//错误
 	}
-
-
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
