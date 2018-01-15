@@ -85,7 +85,129 @@ var sumOfSquares = 0;//要得到数据平方和
 data.forEach(function(x){
 	sumOfSquares += x*x;//平方相加
 });
-console.log(sumOfSquares);
+console.log(sumOfSquares);// 55 1 + 4 + 9 + 16 + 25
+
+//foreach 和相关的遍历方法使得数组拥有简单而强大的函数式编程风格
+
+//多维数组 js不支持多维数组，但可以用数组的数组来近似
+
+//一个具体例子，使用二维数组模拟一个九九乘法表
+var table = new Array(10);
+for (var i = 0; i < table.length; i++) {
+	table[i] = new Array(10);
+}
+for (var row = 0; row < table.length; row++) {
+	for (var col = 0; col < table[row].length; col++) {
+		table[row][col] = row * col;
+	}
+}
+//使用多维数组来计算
+var product = table[5][7];
+console.log(product);
+
+//数组方法
+
+var data = [1,2,3,4,5,6];
+var sum = 0;
+data.forEach(function(value){
+	sum += value;
+});
+console.log(sum);
+data.forEach(function(v,i,a){
+	a[i] = v + 1;
+});
+console.log(data);//[ 2, 3, 4, 5, 6, 7 ]
+
+//注意使用forEach无法启动后暂停，像for循环那样使用break语句等
+//如果要提前终止必须把foeeach方法放在try块中，并能抛出一个异常
+function foreach(a,f,t){
+
+	try {
+		a.forEach(f,t);
+	}catch(e){
+		if (e===foreach.break) {return;}
+		else throw e;
+	}
+}
+
+foreach.break = new Error("StopIteration");
+
+//map()函数
+b = data.map(function(x){return x * x;})
+console.log(b);//[ 4, 9, 16, 25, 36, 49 ]
+
+
+//filter()函数
+
+smallValue = data.filter(function(x){ return x < 3;})
+console.log(smallValue);
+everyother = data.filter(function(x,i){ return i % 2 == 0;})
+console.log(everyother);//[ 2, 4, 6 ]
+
+//filter会跳过稀疏数组中缺少的元素，它的返回数总是稠密的，为了压缩稀疏数组的空缺
+var sparse = [1,,,null,3,undefined,,4,5,6];
+var dense = sparse.filter(function(){return true;})
+console.log(dense); //[ 1, null, 3, undefined, 4, 5, 6 ]
+
+//甚至压缩空缺并删除undefined和null元素
+var densest = sparse.filter(function(x){return x !== undefined && x != null;});
+console.log(densest);
+
+//every() 针对全部为真 返回true 和 some() 针对部分为真 就返回true
+
+a = [1,2,3,4,5];
+b1 = a.every(function(x) {return x < 10;}); //true
+b2 = a.every(function(x) {return x % 2 == 0;});//false
+console.log(b1,b2);
+
+b3 = a.some(function(x) {return x % 2 == 0;});//true
+b4 = a.some(isNaN);//false 不包含非数值元素
+console.log(b3,b4);
+
+//注意 every和some 一旦确认返回什么值它们就会停止遍历数组元素 every确定false  some 确定true
+
+//reduce() 和 reduceRight() 制定函数将数组元素进行组合生成单个值，注入和折叠
+var a = [1,2,3,4,5,6,7,8,9];
+var sum = a.reduce(function(x,y){return x + y;},0);//数组求和
+var product = a.reduce(function(x,y){return x*y;},1);//数组求积
+var max = a.reduce(function(x,y){return (x>y) ? x : y;});//求最大值
+console.log(sum,product,max);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
