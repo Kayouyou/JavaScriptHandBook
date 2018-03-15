@@ -135,7 +135,199 @@ return o;
 //这种稳妥模式下，除了sayname方法之外，没有其他办法访问name的值，
 
 var friend = Person3('lucy',21,'cooker');
-friend.sayName();
+friend.sayName();//lucy
+
+//继承 
+//确定原型和实例的关系有两种方式
+//instanceof  isPrototypeOf 都可以使用
+//谨慎定义方法
+
+function SuperType(){
+this.property = true;
+}
+SuperType.prototype.getSuperValue = function(){
+return this.property;
+}
+function SubType(){
+this.subproperty = false;
+}
+//继承，必须在supertype的实例替换原型之后，在定义这两个方法
+SubType.property = new SuperType();
+//添加新方法
+SubType.prototype.getSubValue = function(){
+return this.subproperty;
+}
+//重写超类中的方法，会屏蔽原来的那个方法
+SubType.prototype.getSuperValue = function(){
+return false;
+}
+
+var instance = new SubType();
+console.log(instance.getSuperValue());//false
+
+//还有一个注意点：通过原型链实现继承时，不能使用对象字面量创建原型方法，因为这一做就会重写原型链
+
+
+function SuperType1(){
+this.property = true;
+}
+SuperType1.prototype.getSuperValue = function(){
+return this.property;
+}
+function SubType1(){
+this.subproperty = false;
+}
+
+//继承
+SubType1.prototype = new SuperType1();
+//使用字面量添加新方法，会导致上一行代码无效
+SubType1.prototype = {
+getSubValue : function(){
+return this.subproperty;
+},
+someOtherMethod : function(){
+return false;
+}
+}
+
+var insatance = new SubType1();
+console.log(instance.getSuperValue());
+
+//原型链的问题
+//包含引用类型值的原型属性会被所有的实例共享
+function SuperTypeC(){
+	this.colors = ['red','white','black','purple'];
+}
+function SubTypeC(){};
+//继承
+SubTypeC.prototype = new SuperTypeC();
+
+var ins = new SubTypeC();
+ins.colors.push('blue');
+console.log(ins.colors);
+var ins2 = new SubTypeC();
+console.log(ins2.colors);
+// [ 'red', 'white', 'black', 'purple', 'blue' ]
+
+//问题2  在创建子类型的实例时，不能向超类型的构建函数中传递参数；
+//实际上，说是没有办法在不影响所有对象实例的情况下，给超类型的构造函数传递参数
+//综合以上，实践中很少会单独使用原型链
+
+//借用构造函数 用于解决原型中包含引用类型值所带来问题的过程
+//这种技术思想很简单，即在子类型构造函数的内部调用超类型构造函数
+//函数不过是特定环境下执行代码的对象，因此通过使用apply和call方法可以在新创建的对象上执行构造函数
+function SuperTypeA(){
+	this.colors = ['red','white','black','purple'];
+}
+function SubTypeA(){
+	//继承
+	SuperTypeA.call(this);
+    //借调了超类的构造函数，通过使用call或apply实际是在将要新创建的subtype实例的
+    //环境下调用了supertype构造函数，这样一来就会在新subtype对象上执行supertype函数定义的所有对象的初始化diamante
+    //结果是 subtype的每个实例都会具有自己的colors属性的副本了
+
+};
+
+var ins = new SubTypeA();
+ins.colors.push('blue');
+console.log(ins.colors);
+var ins2 = new SubTypeA();
+console.log(ins2.colors);
+
+// [ 'red', 'white', 'black', 'purple', 'blue' ]
+// [ 'red', 'white', 'black', 'purple' ]
+
+//借用构造函数特点一  传递参数
+
+//组合继承 也称之伪经典继承 指的是将原型链和借用构造函数的技术组合一起 从而发挥二者之长的一种继承模式
+//背后的思路是使用原型链实现对原型属性和方法的继承，而通过借用构造函数来实现对实例属性的继承
+//这样 通过在原型上定义方法实现了函数复用，又能保证每个实例都有它的属性
+
+function SuperType(name){
+this.name = name;
+this.colors = ['red','blue','green'];
+}
+
+SuperType.prototype.sayName = function(){
+	console.log(this.name);
+}
+
+function SubType(name,age){
+	//继承属性
+	SuperType.call(this,name);
+	this.age = age;
+}
+
+//继承方法
+SubType.prototype = new SuperType();
+SubType.prototype.sayAge = function(){
+	console.log(this.age);	
+}
+
+var instance1 = new SubType('jake',29);
+instance1.colors.push('purple');
+instance1.sayAge();
+instance1.sayName();
+console.log(instance1.colors);
+
+var insatcne2 = new SubType('lily',25);
+console.log(insatcne2.colors);
+insatcne2.sayName();
+insatcne2.sayAge();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
