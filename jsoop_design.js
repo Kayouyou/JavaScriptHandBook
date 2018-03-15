@@ -77,6 +77,78 @@ pp.sayName();
 //这个属性指向函数的原型对象，在默认情况下 所有原型对象都会自动获得一个constructor属性
 //
 
+//组合使用构造函数模式和原型模式
+//构造函数模式用于定义实例属性，而原型模式用于定义方法和共享的属性
+function Person1(name,age,job){
+this.name = name;
+this.age  = age;
+this.job  = job;
+this.friends = ['jim','mark'];
+}
+Person1.prototype = {
+constructor : Person1,
+sayName : function(){
+console.log(this.name);
+}
+}
+
+var pp = new Person1('kayou',27,'engineer');
+pp.sayName();
+
+//结果，每个实例都会有自己的一份实例属性的副本，但同时又共享着对方法引用，最大限度的节省内存
+//以上组合模式是目前使用最广泛的认同度最高的方法
+
+//动态原型模式
+//把所有的信息都封装在构造函数中，而通过在构造函数中初始化原型（仅仅在必要情况下），又保持了同时使用构造函数和原型的优点
+function Person2(name,age,job){
+//属性
+this.name = name;
+this.age  = age;
+this.job  = job;
+//方法
+if (typeof this.sayName != 'function') {
+	Person2.prototype.sayName = function(){
+		console.log(this.name);
+	};
+}
+}
+var pp = new Person2('kayou',27,'engineer');
+pp.sayName()
+//这里只在sayname不存在的情况下才会将它添加到原型中，这段代码在初次调用构造函数时才会执行，此后原型应完成初始化，不需要再做什么修改了
+//使用动态原型模式时，不能使用对象字面量重写原型，前面已经解释过了，如果已经创建了实例的情况下重写原型，那么就会切断现有实例与新原型之间的联系
+
+
+//寄生构造函数模式，在前面几种模式都不适用的情况下，可以使用寄生parastic构造函数模式
+
+//稳妥构造函数模式，所谓的稳妥对象，指的是没有公共属性，而且其方法也不引用this对象，稳妥对象最适合一些安全环境中（这些环境会禁用this和new）
+
+function Person3(name,age,job){
+//创建要返回的对象
+var o = new Object();
+o.sayName = function(){
+	console.log(name);
+};
+return o;
+}
+
+//注意：第一，新创建的对象的实例不引用this，第二，不能使用new操作符调用构造函数
+//这种稳妥模式下，除了sayname方法之外，没有其他办法访问name的值，
+
+var friend = Person3('lucy',21,'cooker');
+friend.sayName();
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
