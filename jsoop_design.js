@@ -275,6 +275,46 @@ console.log(insatcne2.colors);
 insatcne2.sayName();
 insatcne2.sayAge();
 
+//组合继承避免了原型链和借用构造函数的缺陷，融合了他们的优点，成为最常用的继承模式
+//而且 instanceof和isPrototypeOf也能用于识别基于组合继承创建的对象
+
+//组合继承也有缺点，无论什么情况下，都会调用两次超类型构造函数
+//一次是创建子类型原型的时候
+//另一次是在子类型构造函数内部
+//所谓寄生组合继承，通过借用构造函数来继承属性，通过原型链的混成形式来继承方法
+
+//寄生组合继承基本模式如下
+function inheritPrototype(sub,super){
+//接收两个参数：子类型构造函数和超类型构造函数
+//1,创建超类型原型的一个副本
+var prototype = Object(super.prototype);
+//2,为创建的副本添加constructor属性，从而弥补因重写原型而失去的默认的constructor属性
+prototype.constructor = sub;
+//3,将新创建的属性（副本）赋值给子类型的原型
+sub.prototype = prototype;
+}
+
+inheritPrototype(SubType,SuperType);
+
+//寄生组合继承是引用类型最理想的继承范式
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
