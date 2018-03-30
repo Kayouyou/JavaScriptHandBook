@@ -1,4 +1,7 @@
 //跨浏览器的事件处理程序
+//跨浏览器的事件对象
+
+
 var EventUtil = {
 
 addHandler:function(element,type,handler){
@@ -22,7 +25,33 @@ removeHandler:function(element,type,handler){
 	}else{
 		element["on"+type] = null;
 	}
-}
+},
+
+getEvent:function(event){
+	return event ? event : window.event;
+},
+
+getTraget:function(event){
+	return event.target || event.srcElemnet;
+},
+
+preventDefault:function(event){
+	if (event.preventDefault) {
+		event.preventDefault();
+	}else{
+		event.returnValue = false;
+	}
+},
+
+
+stopPropagation:function(event){
+	if (event.stopPropagation) {
+		event.stopPropagation();
+	}else{
+		event.cancelBubble = true;
+	}
+},
+
 };
 
 //使用示范
