@@ -107,9 +107,94 @@ return result;
 }
 
 var res = createFunctions2();
-console.log(res[0]())
-console.log(res[1]());
-console.log(res[2]())
+console.log(res[0]());//0
+console.log(res[1]());//1
+console.log(res[2]());//2
+
+//重写前面的创建函数后，每个函数都会返回各自的不同的索引了
+//这个版本中我们没有直接把闭包赋值给数组，而是定义了一个匿名函数
+//并将立即执行该函数的结果赋值给数组，这里的匿名函数有一个参数num
+//也就是最终的函数要返回的值，在调用每个匿名函数时，我们传入变量i
+//由于函数参数按值传递的，所以就会将变量i的当前值赋值给参数num
+//这个匿名函数内部又创建并返回一个访问num的闭包，这样result数组中的每个函数
+//都有自己num变量的一个副本，因此就可以返回各自不同的数值了
+
+//7.2.2 关于this对象
+/*
+在全局函数中，this等于window，而函数被作为某个对象的方法调用时，this等于那个对象
+不过，匿名函数的执行环境具有全局性，因此this对象通常指向window
+*/
+
+var name = " Window";
+var object = {
+name : "My object",
+getNameFunc : function(){
+return function(){
+return this.name;
+};
+}
+};
+
+//在非严格模式下才会打印 window
+console.log(object.getNameFunc()());//打印undifine
+
+//为什么没有取得其包含作用域的this对象呢？
+/*
+每个函数被调用时，其活动对象都会自动取得两个特殊变量：this和arguments
+内部函数在搜索这两个变量时，只会搜索到其活动对象为止，隐藏永远不可能直接访问
+外部函数中的这两个变量，不过把外部作用域中的this对象保存在一个闭包能够访问到的变量里
+
+*/
+
+var name = " Window";
+var object = {
+name : "My object",
+getNameFunc : function(){
+//在定义匿名函数之前，我们把this对象赋值给一个名叫that的变量
+//在定义闭包之后，闭包可以访问这个变量，因为它是我们包含函数中
+//特意声明的一个变量，即使在函数返回之后，that也仍然引用着object
+//所以调用object的getNameFun()就返回了my object
+var that = this;
+return function(){
+return that.name;
+};
+}
+};
+
+console.log(object.getNameFunc()());//打印My object
+
+//在几种特殊情况下this的值可能会发生变化
+
+var name = " Window";
+var object = {
+name : "My object",
+getName : function(){
+return this.name;
+}
+};
+
+
+console.log(object.getName());//打印My object
+console.log((object.getName)());//打印My object
+
+//先执行了一条赋值语句，然后在调用赋值后的结果，因为这个赋值表达式的值是函数
+//本身，所以this的值能得到维持，结果就是window
+//非严格模式下  window
+console.log((object.getName = object.getName)());//打印undefined
+
+
+//7.2.3 内存泄漏
+
+
+
+
+
+
+
+
+
+
+
 
 
 
