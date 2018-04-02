@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ContextMenu Event Example</title>
+	<!-- 这里引用了两个js文件，并且后者用到了前者的封装的方法！ -->
+	<script type="text/javascript" src="eventUtil.js"></script>
+	<script type="text/javascript" src="addCustomMenuEvent.js"></script>
+</head>
+<body>
+	<div id ="myDiv">Right click or Ctrl+click me to get a custom contextMenu.
+	click anywhere else to get the default contextMenu</div>
+	<ul id = "myMenu" style = "position: absolute;;visibility: hidden;background-color:silver">
+		<li>listone</li>
+		<li>listtwo</li>
+	</ul>
+</body>
+</html>
