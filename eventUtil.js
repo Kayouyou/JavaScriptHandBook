@@ -100,7 +100,25 @@ getCharCode:function(event){
 	}else{
 		return event.keyCode;
 	}
+},
+
+
+//获取剪切板文本
+getClipboardText:function (event) {
+	var clipboardData = (event.clipboardData || window.clipboardData);
+	return clipboardData;
+},
+
+//设置剪切板文本
+setClipboardText:function (event) {
+	if (event.clipboardData){
+		return event.clipboardData.setData("text/plain",value);
+	}else if(window.clipboardData){
+		return window.clipboardData.setData("text",value);
+	}
 }
+
+
 };
 
 //使用示范
