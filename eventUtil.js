@@ -112,8 +112,10 @@ getClipboardText:function (event) {
 //设置剪切板文本
 setClipboardText:function (event) {
 	if (event.clipboardData){
+		//Safari Chrome 是 text/plain
 		return event.clipboardData.setData("text/plain",value);
 	}else if(window.clipboardData){
+		//IE 是text
 		return window.clipboardData.setData("text",value);
 	}
 }

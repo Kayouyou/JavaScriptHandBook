@@ -101,8 +101,16 @@ selectText(textbox,0,3);
 selectText(textbox,4,7);
 
 
-//过滤输入
-
+//过滤输入 如果需要确保粘贴到文本框中的文本包含某些字符，或者符合某种格式要求时，能够访问剪切板是非常有用的
+//这里确保只要数值长度等于10 就会取消粘贴操作
+EventUtil.addHandler(textbox,"paste",function (evenet) {
+   evenet = EventUtil.getEvent(evenet);
+   var text = EventUtil.getClipboardText(evenet);
+   if (text.length == 10) {
+       alert("粘贴文字过长");
+       EventUtil.preventDefault(evenet);
+   }
+});
 
 
 
