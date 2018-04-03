@@ -5,7 +5,6 @@
 
 //2，函数表达式，也叫匿名函数，它和其他的表达式一样，在使用前必须先赋值
 
-
 //7.1 递归
 //一个经典的递归阶乘函数
 function factorial(num){
@@ -47,7 +46,7 @@ if (num <= 1) {
 }else{
 	return num * f(num - 1);
 }	
-})
+});
 var anotherFactorial = factorial;
 factorial = null;
 console.log(anotherFactorial(4));

@@ -16,3 +16,19 @@ EventUtil.addHandler(window,"load",function(event){
 		document.getElementById("myMenu").style.visibility = "hidden";
 	});
 });
+
+//添加beforeUnload事件
+EventUtil.addHandler(window,"beforeunload",function(event){
+	event = EventUtil.getEvent(event);
+	var message = "I am really going to miss you if you go"
+	event.retuenvalue = message;
+	return message;
+});
+
+//documentloaded事件
+EventUtil.addHandler(document,"DOMcontentLoaded",function(event){
+	alert("Content did  loaded")
+});
+
+
+
