@@ -5,6 +5,12 @@
 	<!-- 这里引用了两个js文件，并且后者用到了前者的封装的方法！ -->
 	<script type="text/javascript" src="eventUtil.js"></script>
 	<script type="text/javascript" src="addCustomMenuEvent.js"></script>
+	<script type="text/javascript">
+	//documentloaded事件
+	EventUtil.addHandler(document,"DOMContentLoaded",function(event){
+	alert("Content did  loaded")
+	});
+	</script>>
 </head>
 <body>
 	<div id ="myDiv">Right click or Ctrl+click me to get a custom contextMenu.
