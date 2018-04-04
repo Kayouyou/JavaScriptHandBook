@@ -112,6 +112,16 @@ EventUtil.addHandler(textbox,"paste",function (evenet) {
    }
 });
 
+//html5 约束API
+
+//检查某个表单字段是否为必填字段
+var isUsernameRequired = document.forms[0].elements["username"].required;
+
+//检查浏览器是否支持required属性
+var isRequiredSuppotred = "required" in document.createElement("input");
+
+
+
 
 
 
