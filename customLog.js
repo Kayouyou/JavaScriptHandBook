@@ -11,4 +11,4 @@ function log(message) {
     }else  if(typeof java == "object" && typeof java.lang == "object"){
         java.lang.System.out.println(message);
     }
-} 
+}
