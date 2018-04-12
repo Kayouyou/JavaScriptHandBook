@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>jQuery教程笔记</title>
+    <script src="rc="jquery-2.0.0.min.js"">
+    </script>
+    <script>
+        //文档就绪事件，预防文档没有加载完之前就运行函数，操作可能失败
+        $(document).ready(function(){
+            $("p").click(function(){
+                $(this).hide();
+            });
+        });
+    </script>
+</head>
+<body>
+<p>如果你点我，我就会消失。</p>
+<p>继续点我!</p>
+<p>接着点我!</p>
+</body>
+</html>

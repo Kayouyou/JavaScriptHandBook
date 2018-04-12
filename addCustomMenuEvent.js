@@ -25,10 +25,7 @@ EventUtil.addHandler(window,"beforeunload",function(event){
 	return message;
 });
 
-//documentloaded事件
-EventUtil.addHandler(document,"DOMcontentLoaded",function(event){
-	alert("Content did  loaded")
-});
+
 
 
 
