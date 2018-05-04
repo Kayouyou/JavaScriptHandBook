@@ -1,0 +1,67 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JQ操作CSS</title>
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js">
+    </script>
+    <script>
+        $(document).ready(function () {
+           $("#addClass").click(function () {
+              $("h1,h2").addClass("important");
+              $("p").addClass("blue");
+              //addClass中规定多个类
+              $("body p:first").addClass("important blue");
+           });
+           //返回CSS的属性
+           $("#getCSSAttr").click(function () {
+               alert("背景颜色 = " + $("p:first").css("background-color"));
+           });
+           //设置CSS的属性  多个属性
+            $("#settingPcolor").click(function () {
+                $("p").css({"background-color":"yellow","font-size":"200%"});
+            });
+            //显示div的尺寸
+            $("#showDIV").click(function () {
+                var txt = "";
+                mydiv = $("#div1");
+                txt+="div 宽度是:" + mydiv.width();
+                txt+="div 高度是:" + mydiv.height();
+                mydiv.html(txt);
+            });
+
+        });
+    </script>
+    <style type="text/css">
+        .important
+        {
+            font-weight: 200;
+            font-style: italic;
+            font-size: xx-large;
+        }
+        .blue
+        {
+            color: orange;
+        }
+    </style>
+</head>
+<body>
+
+<h1>标题1</h1>
+<h2>标题2</h2>
+<p>这是一个段落。</p>
+<p>这是另外一个段落</p>
+<p style="background-color: #c3c3c3">获取CSS的属性</p>
+<div id="div1" style="background-color: #6EB1FF;width: 300px;height: 100px;padding: 10px;margin: 5px;border: solid 1px blue;"></div>
+<button id="addClass">添加class</button>
+<button id="removeClass">移除class</button>
+<button id="getCSSAttr">获取第1个p元素的背景颜色值</button>
+<button id="settingPcolor">设置P的颜色</button>
+<br>
+<button id="showDIV">显示div的尺寸</button>
+</body>
+</html>

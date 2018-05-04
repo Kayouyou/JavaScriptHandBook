@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>jQuery教程笔记</title>
+    <!--主流使用CDN的方式引用jquery-->
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js">
+    </script>
+    <script>
+        //文档就绪事件，预防文档没有加载完之前就运行函数，操作可能失败
+        $(document).ready(function(){
+
+            $("p").click(function(){
+                $(this).hide();
+            });
+
+            $("button").click(function () {
+               //$("p").hide();
+               $("#test").hide();
+               $(".test").hide(1000);
+            });
+            $("#show").click(function () {
+                //$("p").hide();
+                //show & hide  可以带speed参数，控制动画
+                $("#test").show(1000);
+                $(".test").show(100);
+            });
+            //toggle来回切换隐藏和显示
+            $("#toggle").click(function () {
+               $("p").toggle();
+            });
+            //淡入淡出效果
+            $("#fadein").click(function () {
+               $("p.test").fadeIn();
+               $("#test").fadeIn("slow");
+            });
+            $("#fadeout").click(function () {
+                $("p.test").fadeOut();
+                $("#test").fadeOut("slow");
+            });
+            $("#fadetoggle").click(function () {
+                $("p.test").fadeToggle();
+                $("#test").fadeToggle("slow");
+            });
+            $("#fadeto").click(function () {
+                $("p.test").fadeTo("slow",0.15);
+                $("#test").fadeToggle("slow",0.4);
+            });
+            //滑动滑入效果
+            $("#flip").click(function () {
+                $("#panel").slideDown("slow");
+            });
+            $("#flipUp").click(function () {
+                $("#panel").slideUp("slow");
+            });
+            $("#flipToggle").click(function () {
+                $("#panel").slideToggle("slow");
+            });
+
+            //动画
+            $("#animate").click(function () {
+                $("div").animate({
+                    left:'450px',
+                    height:'+=100px',
+                    width:'+=50px'
+                });
+                $("#show").animate({
+                    height:'toggle'
+                });
+                var div = $("#flip");
+                //动画队列
+                div.animate({height:'300px',opacity:'0.4'},"slow");
+                div.animate({width:'300px',opacity:'0.8'},"slow");
+                div.animate({height:'100px',opacity:'0.4'},"slow");
+                div.animate({width:'100px',opacity:'0.8'},"slow");
+            });
+            //链式调用
+            $("#chain").click(function () {
+                $("#flip").css("color","red").slideUp(2000).slideDown(2000);
+            });
+
+            //jQueryHTML
+            //text()  获取所选元素的文本内容
+            $("#btn1").click(function () {
+               alert("Text:"+$("#test2").text());
+            });
+            //html()  获取所选元素的内容
+            $("#btn2").click(function () {
+                alert("Text:"+$("#test2").html());
+            });
+            //val()   获取表单字段的值
+            $("#btn3").click(function () {
+                alert("值为:"+$("#text").val());
+            });
+            //获取属性-attr()
+            $("#btn4").click(function () {
+                alert("属性为:"+$("#attribute").attr("href"));
+            });
+            //设置
+
+        });
+
+        //还有简洁写法,效果与上面写法一样
+        //$(function () {
+        //开始写jQuery代码
+        //})
+    </script>
+    <style type="text/css">
+        #panel,#flip,#flipUp,#flipToggle
+        {
+            padding: 5px;
+            text-align: center;
+            background-color: aquamarine;
+            border: solid 1px #c3c3c3;
+        }
+        #panel
+        {
+            padding: 50px;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+<!--jQuery效果-->
+<p>如果你点我，我就会消失。</p>
+<p>继续点我!</p>
+<p>接着点我!</p>
+<p id="test">这是验证#id选择器语法</p>
+<p class="test">这是验证.class选择器语法</p>
+<button>隐藏</button>
+<button id="show">显示</button>
+<button id="toggle">切换</button>
+<button id="fadein">淡入</button>
+<button id="fadeout">淡出</button>
+<button id="fadetoggle">淡入淡出切换</button>
+<button id="fadeto">淡入淡出透明度</button>
+<br>
+<button id="animate">开始动画</button>
+<button id="chain">链式调用</button>
+<br>
+<br>
+<div id="flip" style="height: 100px;width: 200px;position: absolute">点我滑下面板</div>
+<div id="flipUp">点我收起面板</div>
+<div id="flipToggle">滑下收起</div>
+<div id="panel">hello  guys</div>
+
+
+<!--jQueryHTML-->
+<p id="test2">这是段落<b>粗体</b>文本。</p>
+<button id="btn1">显示文本</button>
+<button id="btn2">显示 HTML</button>
+<br>
+<p>名称：<input type="text" id="text" value="自学jQuery"></p>
+<button id="btn3">显示值</button>
+<br>
+<p><a href="http://www.baidu.com" id="attribute">百度网</a></p>
+<button id="btn4">显示href的属性值</button>
+
+
+
+
+
+
+</body>
+</html>

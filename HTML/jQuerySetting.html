@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>jQuery设置</title>
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js">
+    </script>
+    <script>
+        $(document).ready(function () {
+            //设置内容
+            $("#btnset1").click(function () {
+                $("#setp1").text("this is first paragraph");
+            });
+            $("#btnset2").click(function () {
+                $("#setp2").html("<b>hello world!</b>");
+            });
+            $("#btnset3").click(function () {
+                $("#setting").val("setting jQuery");
+            });
+            //设置内容的回调函数
+            $("#btnset1").click(function () {
+                $("#setp1").text(function (i,oldtext) {
+                    return "旧文本:" + oldtext + "新文本：hello world" + "index:("+i+")";
+                });
+            });
+            //设置属性
+            $("#btnset4").click(function () {
+                //替换原先的百度网为新浪网
+               $("#baidu").attr("href","http://www.sina.com");
+               //可以设置多个属性
+               $("#baidu").attr({
+                  "href":"http://www.qq.com",
+                   "title":"腾讯网"
+               });
+               //拿到修改后的title
+                let title = $("#baidu").attr("title");
+                $("#baidu").html(title);
+            });
+            //设置属性的回调函数
+
+
+        });
+    </script>
+
+</head>
+<body>
+
+
+<p id="setp1">这是第一段</p>
+<p id="setp2">这是第二段落</p>
+<p id="setp3">输入框：<input type="text" id="setting" value="jquery设置"></p>
+<button id="btnset1">设置文本</button>
+<button id="btnset2">设置HTML</button>
+<button id="btnset3">设置值</button>
+<button id="btnset4">设置attr值</button>
+<br>
+<p><a href="http://www.baidu.com" id="baidu">百度网</a></p>
+
+
+</body>
+</html>

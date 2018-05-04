@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>添加元素</title>
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js">
+    </script>
+    <script>
+    $(document).ready(function () {
+       $("#btn1").click(function () {
+           //默认是尾部添加，prepend是头部添加
+           $("p").append("<b>尾部新增文本</b>");
+           $("p").prepend("<b>头部新增文本</b>");
+       });
+       $("#btn2").click(function () {
+           $("ol").append("<li>新增列表</li>");
+           $("ol").prepend("<li>头部新增列表</li>");
+       });
+       //前后插入元素
+       //同样可以支持多元素插入
+       $("#beforeBtn").click(function () {
+           $("#testDiv").before("<b>前面</b>")
+       });
+       $("#afterBtn").click(function () {
+           $("#testDiv").after("<b>后面</b>")
+       });
+       //删除与清空
+        $("#delete").click(function () {
+           $("#div1").remove();
+        });
+        $("#clear").click(function () {
+            $("#ol1").empty();
+        });
+        //按条件删除 delOnCondition
+        //删除p标签的所有class等于del
+        $("#delOnCondition").click(function () {
+            $("p").remove(".del");
+        });
+
+
+    });
+    function appendText() {
+        var txt1 = "<p>文本。</p>";//使用HTML标签创建文本
+        var txt2 = $("<p></p>").text("文本");//使用jQuery创建文本
+        var txt3 = document.createElement("p");
+        txt3.innerHTML="文本";
+        $("body").append(txt1,txt2,txt3);
+    }
+
+    //append prepend  和 before after的区别
+//    总结：
+//    append/prepend 是在选择元素内部嵌入。
+//    after/before 是在元素外面追加。
+
+
+    </script>
+</head>
+<body>
+
+<p>第一段落</p>
+<p>第二段落</p>
+<br>
+
+<div id="div1"  style="background-color: orange;width: 300px;height: 200px">
+    <ol id="ol1">
+        <li>item1</li>
+        <li>item2</li>
+        <li>item3</li>
+    </ol>
+</div>
+
+<br>
+<button id="btn1">添加文本</button>
+<button id="btn2">添加列表</button>
+<br>
+<p>这是一个段落</p>
+<button onclick="appendText()">追加文本</button>
+<br>
+<div id="testDiv">演示前后插入文本</div>
+<button id="beforeBtn">前插</button>
+<button id="afterBtn">后插</button>
+
+<p class="del">hello</p>
+<p class="del">hello</p>
+<p class="del">hello</p>
+
+<button id="delete">删除</button>
+<button id="clear">清空</button>
+<button id="delOnCondition">按需删除</button>
+
+</body>
+</html>

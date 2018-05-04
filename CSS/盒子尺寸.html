@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>盒子尺寸</title>
+    <!--主流使用CDN的方式引用jquery-->
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js">
+    </script>
+    <script src="/JS/数据缓存.js"></script>
+    <style type="text/css">
+        .box1,.box2,.box3{
+            width: 50px;
+            height:50px;
+            background-color: gold;
+            margin: 20px;
+        }
+        .box2,.box3{
+            border: 50px solid #000000;
+        }
+        .box3{
+            padding: 50px;
+        }
+
+    </style>
+    <script type="text/javascript">
+
+        function showCookie() {
+
+            <!--设置cookie-->
+            CookieUtil.set('book','gone with the wind');
+            CookieUtil.set('name','jim');
+            //读取cookie
+            alert(CookieUtil.get('name'));
+            alert(CookieUtil.get('book'));
+            alert('hello ')
+
+        }
+        $(document).ready(function () {
+            $('.btn1').click(function () {
+                console.log('点我了')
+//                alert('dian w ')
+            });
+        });
+
+
+    </script>
+
+</head>
+<body>
+<!--
+盒子的真实尺寸计算方法
+盒子的宽度：width(内容尺寸) + 左右的padding + 左右的border
+盒子的高度：height(内容尺寸) + 上下的padding + 上下的border
+-->
+<div class="box1">第一个</div>
+<div class="box2">第二个</div>
+<div class="box3">第三个</div>
+<input class="btn1" type="button" onclick="showCookie()">点我</input>
+</body>
+</html>

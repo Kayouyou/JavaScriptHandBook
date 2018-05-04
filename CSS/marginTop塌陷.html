@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>margin-top塌陷</title>
+    <style type="text/css">
+        .con{
+            width: 298px;
+            height: 200px;
+            background-color: gold;
+            /*border: 1px solid #000000;*/
+            /*overflow: hidden;*/
+        }
+        .box{
+            width: 100px;
+            height: 100px;
+            background-color: green;
+            /*
+            起作用必须处理塌陷
+            1，外层盒子设置border
+            2，外层盒子设置overflow:hidden  设置元素溢出的
+            3，常用方法 使用伪元素方法 clearfix:before
+            */
+            margin-top: 50px;
+        }
+        .clearfix:before{
+            content: "";
+            display: table;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="con clearfix">
+        <div class="box">
+
+        </div>
+    </div>
+
+</body>
+</html>

@@ -2,8 +2,54 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3e8990f-508d-4914-a7b4-7945ce1ff908" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JS/first.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JS/test.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CSS/元素溢出.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CSS/垂直margin合并.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CSS/新闻列表.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CSS/盒子尺寸.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CSS/盒子模型.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CSS/表格.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CSS/选择器.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/form.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/iframe.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/jQueryAJAX.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/jQueryAppend.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/jQueryHandleCSS.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/jQuerySetting.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JS/数据缓存.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/form.html" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ContextMenuEventExample.html" afterPath="$PROJECT_DIR$/HTML/ContextMenuEventExample.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/addCustomMenuEvent.js" afterPath="$PROJECT_DIR$/JS/addCustomMenuEvent.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/advanceFunc.js" afterPath="$PROJECT_DIR$/JS/advanceFunc.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax_http.js" afterPath="$PROJECT_DIR$/JS/ajax_http.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/array.js" afterPath="$PROJECT_DIR$/JS/array.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/bool.js" afterPath="$PROJECT_DIR$/JS/bool.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/canvasEvent.js" afterPath="$PROJECT_DIR$/JS/canvasEvent.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/customForm.js" afterPath="$PROJECT_DIR$/JS/customForm.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/customLog.js" afterPath="$PROJECT_DIR$/JS/customLog.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/dayone.html" afterPath="$PROJECT_DIR$/HTML/dayone.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/eventUtil.js" afterPath="$PROJECT_DIR$/JS/eventUtil.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/expression.js" afterPath="$PROJECT_DIR$/JS/expression.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/first.java" afterPath="$PROJECT_DIR$/CSS/main.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/func_expression.js" afterPath="$PROJECT_DIR$/JS/func_expression.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/function.js" afterPath="$PROJECT_DIR$/JS/function.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/function_method.js" afterPath="$PROJECT_DIR$/JS/function_method.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/handBookScope.js" afterPath="$PROJECT_DIR$/JS/handBookScope.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/iterable.js" afterPath="$PROJECT_DIR$/JS/iterable.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jQueryHtml.html" afterPath="$PROJECT_DIR$/HTML/jQueryHtml.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jQueryTips.js" afterPath="$PROJECT_DIR$/JS/jQueryTips.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jsoop_design.js" afterPath="$PROJECT_DIR$/JS/jsoop_design.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/map_set.js" afterPath="$PROJECT_DIR$/JS/map_set.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/selectEvent.js" afterPath="$PROJECT_DIR$/JS/selectEvent.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/simulateEvent.js" afterPath="$PROJECT_DIR$/JS/simulateEvent.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statement.js" afterPath="$PROJECT_DIR$/JS/statement.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/string.js" afterPath="$PROJECT_DIR$/JS/string.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tableLayout.html" afterPath="$PROJECT_DIR$/HTML/tableLayout.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/test.html" afterPath="$PROJECT_DIR$/HTML/test.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/test.java" afterPath="$PROJECT_DIR$/CSS/marginTop塌陷.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/test2.html" afterPath="$PROJECT_DIR$/HTML/test2.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dayone.html" afterPath="$PROJECT_DIR$/dayone.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,11 +66,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="test2.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test2.html">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CSS/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+            <state relative-caret-position="114">
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jQueryHtml.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HTML/jQueryHtml.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="2" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="7" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="盒子尺寸.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CSS/盒子尺寸.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="212">
+              <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="marginTop塌陷.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CSS/marginTop塌陷.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="430">
+              <caret line="29" column="24" lean-forward="true" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="元素溢出.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CSS/元素溢出.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -120,6 +206,25 @@
         <option value="$PROJECT_DIR$/jQueryTips.js" />
         <option value="$PROJECT_DIR$/jQueryHtml.html" />
         <option value="$PROJECT_DIR$/test2.html" />
+        <option value="$PROJECT_DIR$/form.html" />
+        <option value="$PROJECT_DIR$/CSS/main.css" />
+        <option value="$PROJECT_DIR$/iframe.html" />
+        <option value="$PROJECT_DIR$/HTML/jQueryHtml.html" />
+        <option value="$PROJECT_DIR$/HTML/jQuerySetting.html" />
+        <option value="$PROJECT_DIR$/HTML/jQueryAppend.html" />
+        <option value="$PROJECT_DIR$/HTML/jQueryAJAX.html" />
+        <option value="$PROJECT_DIR$/HTML/iframe.html" />
+        <option value="$PROJECT_DIR$/HTML/jQueryHandleCSS.html" />
+        <option value="$PROJECT_DIR$/CSS/选择器.html" />
+        <option value="$PROJECT_DIR$/CSS/表格.html" />
+        <option value="$PROJECT_DIR$/CSS/盒子模型.html" />
+        <option value="$PROJECT_DIR$/CSS/新闻列表.html" />
+        <option value="$PROJECT_DIR$/CSS/垂直margin合并.html" />
+        <option value="$PROJECT_DIR$/JS/useCookieUtil.js" />
+        <option value="$PROJECT_DIR$/CSS/盒子尺寸.html" />
+        <option value="$PROJECT_DIR$/JS/数据缓存.js" />
+        <option value="$PROJECT_DIR$/CSS/marginTop塌陷.html" />
+        <option value="$PROJECT_DIR$/CSS/元素溢出.html" />
       </list>
     </option>
   </component>
@@ -142,10 +247,13 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="733" />
+    <option name="x" value="483" />
     <option name="y" value="23" />
-    <option name="width" value="715" />
-    <option name="height" value="826" />
+    <option name="width" value="1004" />
+    <option name="height" value="827" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -163,18 +271,39 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane" />
       <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="JavaScriptHandBook" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaScriptHandBook" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaScriptHandBook" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaScriptHandBook" type="462c0819:PsiDirectoryNode" />
+              <item name="CSS" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="settings.phonegap" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/yeyangyang/Desktop/JavaScriptHandBook/simulateEvent.js" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/JS" />
+      <recent name="$PROJECT_DIR$/HTML" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -188,26 +317,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.jQueryHtml.html">
-    <configuration name="ContextMenuEventExample.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaScriptHandBook/ContextMenuEventExample.html" />
-    <configuration name="function_method.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="function_method.js" working-dir="$PROJECT_DIR$" />
-    <configuration name="iterable.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="iterable.js" working-dir="$PROJECT_DIR$" />
-    <configuration name="jQueryHtml.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaScriptHandBook/jQueryHtml.html" />
-    <configuration name="map_set.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="map_set.js" working-dir="$PROJECT_DIR$" />
+  <component name="RunManager" selected="Node.js.useCookieUtil.js">
+    <configuration name="数据缓存.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="数据缓存.js" working-dir="$PROJECT_DIR$/JS" />
+    <configuration name="canvasEvent.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="canvasEvent.js" working-dir="$PROJECT_DIR$/JS" />
+    <configuration name="jQueryHtml.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaScriptHandBook/HTML/jQueryHtml.html" />
+    <configuration name="string.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="string.js" working-dir="$PROJECT_DIR$/JS" />
+    <configuration name="useCookieUtil.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="useCookieUtil.js" working-dir="$PROJECT_DIR$/JS" />
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.ContextMenuEventExample.html" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.map_set.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.iterable.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.function_method.js" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.jQueryHtml.html" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.jQueryHtml.html" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.useCookieUtil.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.canvasEvent.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.string.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.数据缓存.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.jQueryHtml.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.ContextMenuEventExample.html" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.function_method.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.iterable.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.map_set.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.useCookieUtil.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.canvasEvent.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.数据缓存.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.string.js" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.jQueryHtml.html" />
       </list>
     </recent_temporary>
   </component>
@@ -235,6 +364,12 @@
       <workItem from="1523587080610" duration="338000" />
       <workItem from="1523888019140" duration="185000" />
       <workItem from="1524305095967" duration="1224000" />
+      <workItem from="1524745507300" duration="5465000" />
+      <workItem from="1524792205334" duration="15506000" />
+      <workItem from="1525049216275" duration="12732000" />
+      <workItem from="1525221954628" duration="7118000" />
+      <workItem from="1525351907291" duration="115000" />
+      <workItem from="1525352987929" duration="2240000" />
     </task>
     <task id="LOCAL-00001" summary=" 第一次webstorm提交">
       <created>1522721862266</created>
@@ -268,7 +403,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54803000" />
+    <option name="totallyTimeSpent" value="97979000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -280,24 +415,24 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="733" y="23" width="715" height="826" extended-state="0" />
+    <frame x="483" y="23" width="1004" height="827" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2055944" sideWeight="0.4834437" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3275862" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19223107" sideWeight="0.4834437" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3275862" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32867134" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32867134" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3275862" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3271523" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24895105" sideWeight="0.49309665" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24895105" sideWeight="0.50690335" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39920425" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3986755" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32867134" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -341,241 +476,90 @@
     <option name="LAST_COMMIT_MESSAGE" value="剪切板过滤实例" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/iterable.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jQueryHtml.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/selectEvent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/canvasEvent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1425">
-          <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customLog.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="1" lean-forward="false" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ajax_http.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1995">
-          <caret line="105" column="0" lean-forward="false" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advanceFunc.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/function_method.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2964">
-          <caret line="156" column="0" lean-forward="false" selection-start-line="156" selection-start-column="0" selection-end-line="156" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jQueryTips.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/map_set.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iterable.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jQueryHtml.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ContextMenuEventExample.html">
+    <entry file="file://$PROJECT_DIR$/HTML/ContextMenuEventExample.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="12" column="14" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eventUtil.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="35" lean-forward="false" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/canvasEvent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1425">
-          <caret line="75" column="0" lean-forward="true" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/selectEvent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customLog.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="5" lean-forward="false" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ContextMenuEventExample.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="14" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eventUtil.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/selectEvent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/canvasEvent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1425">
-          <caret line="75" column="0" lean-forward="true" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ContextMenuEventExample.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="14" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simulateEvent.js">
+    <entry file="file://$PROJECT_DIR$/JS/simulateEvent.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="77" lean-forward="false" selection-start-line="0" selection-start-column="77" selection-end-line="0" selection-end-column="77" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addCustomMenuEvent.js">
+    <entry file="file://$PROJECT_DIR$/JS/addCustomMenuEvent.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="28" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/customForm.js">
+    <entry file="file://$PROJECT_DIR$/JS/customForm.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2090">
           <caret line="110" column="22" lean-forward="false" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eventUtil.js">
+    <entry file="file://$PROJECT_DIR$/JS/eventUtil.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2907">
           <caret line="154" column="0" lean-forward="true" selection-start-line="154" selection-start-column="0" selection-end-line="154" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ContextMenuEventExample.html">
+    <entry file="file://$PROJECT_DIR$/HTML/ContextMenuEventExample.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="12" column="14" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simulateEvent.js">
+    <entry file="file://$PROJECT_DIR$/JS/simulateEvent.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="77" lean-forward="true" selection-start-line="0" selection-start-column="77" selection-end-line="0" selection-end-column="77" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addCustomMenuEvent.js">
+    <entry file="file://$PROJECT_DIR$/JS/addCustomMenuEvent.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="28" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/customForm.js">
+    <entry file="file://$PROJECT_DIR$/JS/customForm.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2090">
           <caret line="110" column="22" lean-forward="true" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eventUtil.js">
+    <entry file="file://$PROJECT_DIR$/JS/eventUtil.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2755">
           <caret line="146" column="52" lean-forward="true" selection-start-line="146" selection-start-column="52" selection-end-line="146" selection-end-column="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ContextMenuEventExample.html">
+    <entry file="file://$PROJECT_DIR$/HTML/ContextMenuEventExample.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="63" lean-forward="false" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simulateEvent.js">
+    <entry file="file://$PROJECT_DIR$/JS/simulateEvent.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
@@ -589,38 +573,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addCustomMenuEvent.js">
+    <entry file="file://$PROJECT_DIR$/JS/addCustomMenuEvent.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="28" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simulateEvent.js">
+    <entry file="file://$PROJECT_DIR$/JS/simulateEvent.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="77" lean-forward="false" selection-start-line="0" selection-start-column="77" selection-end-line="0" selection-end-column="77" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/customForm.js">
+    <entry file="file://$PROJECT_DIR$/JS/customForm.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
           <caret line="110" column="22" lean-forward="false" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ContextMenuEventExample.html">
+    <entry file="file://$PROJECT_DIR$/HTML/ContextMenuEventExample.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="12" column="14" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eventUtil.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="35" lean-forward="false" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -631,83 +608,236 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/map_set.js">
+    <entry file="file://$PROJECT_DIR$/JS/map_set.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iterable.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advanceFunc.js">
+    <entry file="file://$PROJECT_DIR$/JS/advanceFunc.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
           <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/function_method.js">
+    <entry file="file://$PROJECT_DIR$/JS/function_method.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2964">
           <caret line="156" column="0" lean-forward="false" selection-start-line="156" selection-start-column="0" selection-end-line="156" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jQueryTips.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jQueryHtml.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customLog.js">
+    <entry file="file://$PROJECT_DIR$/JS/customLog.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="13" column="1" lean-forward="false" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ajax_http.js">
+    <entry file="file://$PROJECT_DIR$/JS/ajax_http.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="669">
           <caret line="105" column="0" lean-forward="false" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/canvasEvent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="669">
-          <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/selectEvent.js">
+    <entry file="file://$PROJECT_DIR$/JS/selectEvent.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="703">
           <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML/test2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="27" lean-forward="false" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML/form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="893">
+          <caret line="47" column="21" lean-forward="false" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_code.jquery.com_jquery-2.0.0.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="8244" column="0" lean-forward="false" selection-start-line="8244" selection-start-column="0" selection-end-line="8244" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML/jQueryAJAX.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS/bool.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML/jQuerySetting.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="56" lean-forward="false" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML/jQueryAppend.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML/iframe.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="27" lean-forward="false" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML/jQueryHandleCSS.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="39" column="18" lean-forward="true" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/选择器.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="950">
+          <caret line="50" column="9" lean-forward="true" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS/array.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS/eventUtil.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS/string.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS/canvasEvent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="36" lean-forward="true" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS/useCookieUtil.js" />
+    <entry file="file://$PROJECT_DIR$/CSS/表格.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="39" column="8" lean-forward="true" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/盒子模型.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/新闻列表.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="36" column="31" lean-forward="true" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS/数据缓存.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test2.html">
+    <entry file="file://$PROJECT_DIR$/HTML/jQueryHtml.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        <state relative-caret-position="95">
+          <caret line="5" column="2" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS/iterable.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS/jQueryTips.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/垂直margin合并.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/盒子尺寸.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/marginTop塌陷.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="29" column="24" lean-forward="true" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/元素溢出.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
           <folding />
         </state>
       </provider>

@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>内嵌框架</title>
+    <!--2,CSS内嵌样式-->
+    <style type="text/css">
+        div{
+            color:red;
+            font-size:19px;
+            font-family: "Apple Braille";
+            font-style: italic;
+        }
+    </style>
+    <!--3CSS外联样式-->
+    <!--rel &  type 可以不写-->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+</head>
+<body>
+<!--target 值是iframe的name  可以跳进内嵌框架中显示-->
+    <a href="http://www.baidu.com" target="myframe">百度</a>
+    <a href="http://www.itcast.com" target="myframe">传智</a>
+    <a href="http://www.qq.com" target="myframe">腾讯</a>
+    <a href="http://www.sina.com" target="myframe">新浪</a>
+<!--iframe是内嵌标签-->
+    <iframe src="http://www.baidu.com" width="900" height="500" frameborder="0" scrolling="no" name="myframe"></iframe>
+    <iframe src="form.html" width="900" height="500" frameborder="0" scrolling="no"></iframe>
+
+<!--1,CSS内联式样式-->
+    <div style="color:#6EB1FF;font-size: 28px;font-family: 'Apple Braille';line-height: 40px;">
+        APP训后指导数据对接(安卓)
+        <br>
+        APP训后资源查看功能(安卓)
+        <br>
+        APP训后指导数据对接(IOS)
+        <br>
+        APP训后资源查看功能(IOS)
+        <br>
+        APP训后资源查看调试测试(安卓)
+    </div>
+
+    <div>
+        APP训后指导数据对接(安卓)
+        <br>
+        APP训后资源查看功能(安卓)
+        <br>
+        APP训后指导数据对接(IOS)
+        <br>
+        APP训后资源查看功能(IOS)
+        <br>
+        APP训后资源查看调试测试(安卓)
+    </div>
+
+
+
+
+
+
+
+
+
+</body>
+</html>

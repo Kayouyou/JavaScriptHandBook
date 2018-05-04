@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>表单</title>
+</head>
+<body>
+	<h3>用户注册</h3>
+	<!--默认method是get请求-->
+	<form action="http://www.baidu.com" method="post">
+		<div>
+			<!-- for设置激活属性  点击用户名 激活输入框 -->
+			<label for="username">用户名：</label>
+			<input type="text" name="username" id="username">
+		</div>
+		<br>
+		<br>
+		<div>
+			<label>密码：</label>
+			<input type="password" name="pwd">
+		</div>
+
+		<div>
+			<label>性别:</label>
+			<input type="radio" name="gender" id="male"><label for="male">男</label>
+			<input type="radio" name="gender" id="female"><label for="female">女</label>
+		</div>
+		<div>
+			<label>爱好:</label>
+			<input type="checkbox" name="habbit">游戏
+			<input type="checkbox" name="habbit">逛街
+			<input type="checkbox" name="habbit">睡觉
+		</div>
+		
+		<div>
+			<label> 个人描述 多行文本</label>
+			<textarea></textarea>
+		</div>
+
+		
+		<div>
+			<label>籍贯:</label>
+			<select>
+				<option value="0" >北京</option>
+				<option value="1">广州</option>
+				<option value="2">上海</option>
+				<option value="3">深圳</option>
+			</select>
+		</div>
+		<br>
+
+		<input type="submit" name="" value="提交">
+		<!-- 重置表单内容-->
+		<input type="reset"name="" value="重置">
+		<input type="button" name=""value="按钮">
+		<!--hidden 用来存数据 页面不显示出来-->
+		<input type="hidden" name="" value="">
+
+	</form>
+</body>
+</html>

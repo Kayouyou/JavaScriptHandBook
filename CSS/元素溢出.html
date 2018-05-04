@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>元素溢出</title>
+    <style type="text/css">
+        .con{
+            width: 500px;
+            height: 300px;
+            border: 1px solid #000000;
+            margin: 50px auto 0;
+            /*元素溢出时隐藏多余部分*/
+            /*overflow: hidden;*/
+            /*滚动条 不管溢出 都显示*/
+            /*overflow: scroll;*/
+            /*滚动条根据实际情况出现*/
+            overflow: auto;
+        }
+        .box{
+            width: 400px;
+            height: 600px;
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+<div class="con">
+    <div class="box">
+
+    </div>
+</div>
+</body>
+</html>
