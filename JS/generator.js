@@ -66,6 +66,62 @@ console.log(ninja1.id,ninja2.id,ninja3.id);// 1 2 3
 //好处很明显：局部变量ID 仅仅能在改生成器中访问，不用担心有人会不小心在其他地方修改ID的值，随后是一个无限循环，每次都能生成一个新ID值并挂起执行，直到下一次ID请求到达
 
 
+//与生成器交互
+//1， 作为生成器函数参数发送值
+
+function* TimGenerator(action) {//生成器函数可以像其他函数一样接收标准参数
+
+    const imposer = yield ('kayou' + action);
+    yield ('yoshi (' + imposer +'）'+action );
+}
+
+const inijan = TimGenerator('skill');
+const result11 = inijan.next();
+console.log(result11.value);
+
+//将数据作为next方法的参数传递给生成器
+const  result22 = inijan.next('kill');
+console.log(result22.value);
+
+
+//抛出异常
+
+function* exceptionGenerator () {
+
+    try {
+        yield "hello";
+
+    }catch(e){
+        console.log(e)
+    }
+}
+
+const excepG = exceptionGenerator();
+const rr1 = excepG.next();
+console.log(rr1.value);
+excepG.throw('catch this');//向生成器抛出一个异常
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
