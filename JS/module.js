@@ -36,6 +36,38 @@ MouseCountermodule.countScrolls();
 
 //通过独立的立即执行函数扩展模块，无法共享模块私有变量，因为每个函数都分别创建了新的作用域
 
+//使用AMD和CommonJS模块化JS应用
+/**
+ * 两者区别：
+ * AMD：设计理念明确基于浏览器
+ * CommonJS:面向通用的js环境,而不局限于浏览器
+ */
+
+// ES6模块  export  import
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
