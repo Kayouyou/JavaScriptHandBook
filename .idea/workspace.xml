@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e3e8990f-508d-4914-a7b4-7945ce1ff908" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JS/map.js" />
+    <list default="true" id="e3e8990f-508d-4914-a7b4-7945ce1ff908" name="Default" comment="剪切板过滤实例">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JS/module.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -23,7 +23,7 @@
       <file leaf-file-name="applyAndCall.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HTML/applyAndCall.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="380">
               <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
               <folding />
             </state>
@@ -67,7 +67,7 @@
         <entry file="file://$PROJECT_DIR$/JS/delegate.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2394">
-              <caret line="126" column="0" lean-forward="true" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
+              <caret line="126" column="0" lean-forward="false" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -76,19 +76,31 @@
       <file leaf-file-name="handleArray.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JS/handleArray.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="81" column="0" lean-forward="true" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+            <state relative-caret-position="1539">
+              <caret line="81" column="0" lean-forward="false" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="map.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="map.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JS/map.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="60" column="18" lean-forward="true" selection-start-line="60" selection-start-column="18" selection-end-line="60" selection-end-column="18" />
+            <state relative-caret-position="1311">
+              <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="module.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JS/module.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="205">
+              <caret line="31" column="30" lean-forward="true" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -212,6 +224,7 @@
         <option value="$PROJECT_DIR$/JS/delegate.js" />
         <option value="$PROJECT_DIR$/JS/handleArray.js" />
         <option value="$PROJECT_DIR$/JS/map.js" />
+        <option value="$PROJECT_DIR$/JS/module.js" />
       </list>
     </option>
   </component>
@@ -234,9 +247,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="675" />
+    <option name="x" value="619" />
     <option name="y" value="23" />
-    <option name="width" value="729" />
+    <option name="width" value="785" />
     <option name="height" value="827" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -273,7 +286,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -296,6 +308,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -327,26 +340,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.map.js">
+  <component name="RunManager" selected="Node.js.module.js">
     <configuration name="delegate.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="delegate.js" working-dir="$PROJECT_DIR$/JS" />
-    <configuration name="generator.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="generator.js" working-dir="$PROJECT_DIR$/JS" />
     <configuration name="handleArray.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="handleArray.js" working-dir="$PROJECT_DIR$/JS" />
     <configuration name="map.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="map.js" working-dir="$PROJECT_DIR$/JS" />
+    <configuration name="module.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="module.js" working-dir="$PROJECT_DIR$/JS" />
     <configuration name="promise.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="promise.js" working-dir="$PROJECT_DIR$/JS" />
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.generator.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.promise.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.delegate.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.handleArray.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.map.js" />
+      <item index="0" class="java.lang.String" itemvalue="Node.js.promise.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.delegate.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.handleArray.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.map.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.module.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.map.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.handleArray.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.delegate.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.promise.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.generator.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.module.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.map.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.handleArray.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.delegate.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.promise.js" />
       </list>
     </recent_temporary>
   </component>
@@ -386,7 +399,9 @@
       <workItem from="1530941225104" duration="1315000" />
       <workItem from="1531706135226" duration="2510000" />
       <workItem from="1531807092170" duration="9082000" />
-      <workItem from="1531900919690" duration="4232000" />
+      <workItem from="1531900919690" duration="4411000" />
+      <workItem from="1531982165757" duration="2037000" />
+      <workItem from="1532066070070" duration="74000" />
     </task>
     <task id="LOCAL-00001" summary=" 第一次webstorm提交">
       <created>1522721862266</created>
@@ -420,7 +435,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="133400000" />
+    <option name="totallyTimeSpent" value="135690000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -432,14 +447,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="675" y="23" width="729" height="827" extended-state="0" />
+    <frame x="619" y="23" width="785" height="827" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921812" sideWeight="0.4834437" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32866243" sideWeight="0.4834437" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3275862" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32867134" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32867134" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36821193" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14966887" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24895105" sideWeight="0.49309665" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24895105" sideWeight="0.50690335" order="2" side_tool="true" content_ui="tabs" />
@@ -519,13 +534,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/JS/simulateEvent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DOMEvents.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1019">
@@ -776,7 +784,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -791,7 +798,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="11" column="36" lean-forward="false" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -799,13 +805,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="665">
           <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HTML/applyAndCall.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="380">
           <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
           <folding />
         </state>
@@ -841,7 +846,7 @@
     <entry file="file://$PROJECT_DIR$/JS/delegate.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2394">
-          <caret line="126" column="0" lean-forward="true" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
+          <caret line="126" column="0" lean-forward="false" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -850,14 +855,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2033">
           <caret line="107" column="0" lean-forward="false" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/JS/handleArray.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="81" column="0" lean-forward="true" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+        <state relative-caret-position="1539">
+          <caret line="81" column="0" lean-forward="false" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -866,7 +870,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -874,15 +877,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="608">
           <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/JS/map.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="60" column="18" lean-forward="true" selection-start-line="60" selection-start-column="18" selection-end-line="60" selection-end-column="18" />
+        <state relative-caret-position="1311">
+          <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS/module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="31" column="30" lean-forward="true" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
